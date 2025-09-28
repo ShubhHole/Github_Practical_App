@@ -1,0 +1,14 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+       
+           <bean class=" in.mavenproject.bean.Student" id="stu">
+              <property name="id" value="203" />
+              <property name="name" value="Warun" />
+           </bean>
+           
+
+</beans>
